@@ -1,0 +1,23 @@
+#faqcss{
+	padding-top: 70px;
+}
+p{
+	text-align: justify;
+}
+.panel-title{
+	text-align: justify;
+}
+
+h4 > a:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+ul.nav a:hover { 
+	font-weight: bold;
+	transform: all 0.8s ease;
+}
+
+div.textFooter a:hover{
+	font-weight: bold;
+}

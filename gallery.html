@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Patrona</title>
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet"  href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/gallery.css">
+		<link rel="stylesheet" href="css/animate.css"> <!--For Animation-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"><!--For Icons-->
+	</head>
+	<body>
+		<!--Header-->
+		<!--Navigation Bar-->
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle navTogbtn" data-toggle="collapse" data-target="#menu1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html" class="navbar-brand"><img src="images/logo1.png" alt="logo1" class="logo"></a>
+				</div>
+				<div class="navbar-collapse collapse" id="menu1">
+					<ul class="nav navbar-nav navbar-right navItemPad">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+							<!--Dropdown-->
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Articles <b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li><a href="article/nutrition.html">Nutrition</a></li>
+										<li class="divider"></li>
+										<li><a href="article/training.html">Training</a></li>
+									</ul>
+							</li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--End NavBar-->
+		
+		<!--Image Grim-->
+		<div class="container gallery">
+			<h2><a href="gallery.html" class="linkModify"><center> MY GALLERY </center></a></h2>
+				<form class="form-inline">
+					<div class="form-group">
+						<label for="selectCountry">Country:</label>
+						<select class="form-control" id="selectCountry">
+							<option value="all">All</option>
+							<option value="canada">Canada</option>
+							<option value="china">China</option>
+							<option value="croatia">Croatia</option>
+							<option value="france">France</option>
+							<option value="germany">Germany</option>
+							<option value="ireland">Ireland</option>
+							<option value="italy">Italy</option>
+							<option value="japan">Japan</option>
+							<option value="russia">Russia</option>
+							<option value="uk">United Kingdom</option>
+							<option value="us">United States</option>
+						</select>
+						<label for="selectSize">Size:</label>
+						<select class="form-control" id="selectSize">
+							<option value="all">All</option>
+							<option value="small">Small</option>
+							<option value="medium">Medium</option>
+							<option value="large">Large</option>
+						</select>
+					</div>
+				</form>
+				
+				<div class="dog">
+								<!--1st-->
+								<div class="contain filter japan large">
+									<img src="images/American-Akita-2.jpg" class="fit-image">
+									<a href="dogs/dog18.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Akita</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--2nd-->
+								<div class="contain filter us medium">
+									<img src="images/American-Pit-Bull-Terrier-2.jpg" class="fit-image">
+									<a href="dogs/dog7.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>American Pit Bull Terrier</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--3rd-->
+								<div class="contain filter uk small">
+									<img src="images/Beagle-2.jpg" class="fit-image">
+									<a href="dogs/dog5.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Beagle</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--4th-->
+								<div class="contain filter uk ireland medium">
+									<img src="images/Border-Collie-2.jpg" class="fit-image">
+									<a href="dogs/dog6.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Border Collie</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--5th-->
+								<div class="contain filter germany medium">
+									<img src="images/Boxer-2.jpg" class="fit-image">
+									<a href="dogs/dog11.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Boxer</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--6th-->
+								<div class="contain filter uk large">
+									<img src="images/Bullmastiff-2.jpg" class="fit-image">
+									<a href="dogs/dog19.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Bullmastiff</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--7th-->
+								<div class="contain filter italy large">
+									<img src="images/Cane-Corso-Italiano-2.jpg" class="fit-image">
+									<a href="dogs/dog17.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Cane Corso</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--8th-->
+								<div class="contain filter germany small">
+									<img src="images/Dachshund-2.jpg" class="fit-image">
+									<a href="dogs/dog10.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Dachshund</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--9th-->
+								<div class="contain filter uk croatia large">
+									<img src="images/Dalmatian-2.jpg" class="fit-image">
+									<a href="dogs/dog12.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Dalmatian</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--10th-->
+								<div class="contain filter uk france small">
+									<img src="images/French-Bulldog-2.jpg" class="fit-image">
+									<a href="dogs/dog15.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>French Bulldog</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--11st-->
+								<div class="contain filter germany medium large">
+									<img src="images/German-Shepherd-Dog-2.jpg" class="fit-image">
+									<a href="dogs/dog1.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>German Shepherd</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--12nd-->
+								<div class="contain filter uk medium large">
+									<img src="images/Golden-Retriever-2.jpg" class="fit-image">
+									<a href="dogs/dog4.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Golden Retriever</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--13rd-->
+								<div class="contain filter canada us medium">
+									<img src="images/Labrador-Retriever-2.jpg" class="fit-image">
+									<a href="dogs/dog2.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Labrador Retriever</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--14th-->
+								<div class="contain filter uk small">
+									<img src="images/Pembroke-Welsh-Corgi-2.jpg" class="fit-image">
+									<a href="dogs/dog16.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Pembroke Welsh Corgi</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--15th-->
+								<div class="contain filter france germany medium">
+									<img src="images/Poodle-2.jpg" class="fit-image">
+									<a href="dogs/dog21.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Pooddle</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--16th-->
+								<div class="contain filter china small">
+									<img src="images/Pug-2.jpg" class="fit-image">
+									<a href="dogs/dog8.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Pug</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--17th-->
+								<div class="contain filter germany medium large">
+									<img src="images/Rottweiler-2.jpg" class="fit-image">
+									<a href="dogs/dog9.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Rottweiler</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--18th-->
+								<div class="contain filter uk large">
+									<img src="images/Rough-Collie-2.jpg" class="fit-image">
+									<a href="dogs/dog14.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Collie</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--19th-->
+								<div class="contain filter uk small">
+									<img src="images/Shetland-Sheepdog-2.jpg" class="fit-image">
+									<a href="dogs/dog13.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Shetland Sheepdog</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--20th-->
+								<div class="contain filter china small">
+									<img src="images/Shih-Tzu-2.jpg" class="fit-image">
+									<a href="dogs/dog20.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Shih Tzu</p>
+										</div>
+									</div>
+									</a>
+								</div>
+
+								<!--21st-->
+								<div class="contain filter russia medium">
+									<img src="images/Siberian-Husky-2.jpg" class="fit-image">
+									<a href="dogs/dog3.html">
+									<div class="overlay overlayLeft">
+										<div class="text">
+											<p>Siberian Husky</p>
+										</div>
+									</div>
+									</a>
+								</div>
+				</div>
+		</div>
+		<!--End Image Grim-->
+
+		<!--Footer-->
+		<div class="bgFooter">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2 textFooter">
+						<a href="index.html"><p>HOME</p></a>
+						<a href="about.html"><p>ABOUT US</p></a>
+						<a href="gallery.html"><p>GALLERY</p></a>
+						<a href="article.html"><p>ARTICLES</p></a>
+						<a href="faq.html"><p>FAQ</p></a>
+						<a href="contact.html"><p>CONTACT US</p></a>
+					</div>
+					<div class="col-sm-2 iconFooter">
+						<p>FOLLOW US:</p>
+						<a href="#"><i class="fab fa-facebook"></i></a>
+						<a href="#"><i class="fab fa-twitter-square"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="#"><i class="fab fa-pinterest-square"></i></a><br>
+						<p>CONTACTS</p>
+						<p>P: xxx-xxxx-xxxx</p>
+						<p>E: xxxxx@xxx.com</p>
+						<p>A: xx xxxxx xxxx</p>
+					</div>
+					<div class="col-sm-7 mapFooter">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2526.0809978099223!2d-83.14001383249192!3d42.54120758658142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824c44b555fa7c1%3A0xb819b71f3afcee52!2s575+E+Elmwood+Ave%2C+Troy%2C+MI+48083!5e0!3m2!1svi!2s!4v1542717732272" width="715" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<p style="color: white; letter-spacing: 3px;">&copy; 2018 by PATRONA. All Rights Reserved. </p>
+			</div>
+		</div>
+		<!--End Footer-->
+
+	<!-- Compiled and minified jQuery -->
+	<script src="js/jquery.min.js"></script>
+	
+	<!-- Compiled and minified JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Filter using jQuery -->
+	<script src="js/gallery.js"></script>
+	</body>
+</html>

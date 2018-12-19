@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+	font-family: 'Rubik', sans-serif;
+}
+
+
+.navbar {
+	min-height: 80px;
+}
+
+.navTogbtn{
+	margin-top: 18px;
+}
+
+.navItemPad{
+	padding-top: 12px;
+}
+
+ul.nav a:hover { 
+	font-weight: bold;
+	transform: all 0.8s ease;
+}
+
+.logo{
+	width: 100%;
+	height: 200%;
+}
+
+.carousel-caption blockquote {
+	font-size: 40px;
+}
+
+.carousel-inner {
+	position: relative;
+}
+
+.carousel .carousel-inner img{
+	width: 100%;
+	height: 100vh;
+}
+
+.content-about{
+	margin: 20px auto;
+	padding: 30px 15px 30px 10px;
+	text-align: center;
+}
+
+.content-gallery{
+	text-align: center;
+}
+
+.bg-gallery{
+	background-color: rgba(0,0,0,0.1);
+	margin: 50px 10px;
+	padding: 50px;
+}
+
+.content-gallery img{
+	border-radius: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.middleImg{
+	padding-top: 100px;
+}
+
+.fit-image{
+	height: 100%;
+	width: 100%;
+}
+
+#myGrid{
+	margin-top: 50px;
+}
+
+.grid-padding{
+	padding: 0 8px;
+}
+
+.grid-padding img{
+	margin-bottom: 15px;
+	transition: 0.8s ease;
+}
+
+.grid-padding img:hover{
+	box-shadow: 0 10px 40px 0 rgba(0,0,0,0.5);
+	transition: 0.8s ease;
+}
+
+.col_sm_4{
+	padding-right: 30px;
+}
+
+.linkModify{
+	text-decoration: none;
+	color: black;
+}
+
+.linkModify:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.rightArticle{
+	text-align: right;
+}
+
+.leftArticle{
+	text-align: left;
+}
+
+.bg-article{
+	padding-bottom: 70px;
+}
+
+.bgFooter{
+	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+ 	background-blend-mode: multiply,multiply;
+}
+
+.textFooter{
+	margin: 10px 10px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	font-weight: 10px;
+}
+
+.textFooter a{
+	color: white;
+	line-height: 26px;
+}
+
+.textFooter a:hover{
+	text-decoration: none;
+}
+
+.textFooter li{
+	list-style-type: none;
+}
+
+.iconFooter{
+	font-size: 30px;
+	margin: 10px 10px;
+	padding: 10px;
+	color: white;
+	font-weight: 10px;
+	line-height: 27px;
+}
+
+.iconFooter p{
+	font-size: 15px;
+}
+
+.mapFooter{
+	margin: 10px 10px;
+	padding: 10px;
+}
+
+div.textFooter a:hover{
+	font-weight: bold;
+}
+
+.dogs{
+	text-align: justify;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+td:nth-child(2){
+	text-align: center;
+}
+
+.centerTbl{
+	margin-left: auto;
+	margin-right: auto;
+}
+
